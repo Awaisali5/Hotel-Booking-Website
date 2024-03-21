@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Booking</title>
+
+    <!-- favicon Icon  -->
+    <link rel="shortcut icon" href="./images/icons8-3-star-hotel-48.png" type="image/x-icon">
     <!-- css style sheet  -->
     <link rel="stylesheet" href="./style.css" />
+    
     <!-- Font Awesome icons  -->
     <link
       rel="stylesheet"
@@ -22,17 +26,22 @@
   <body>
     <div class="main-container">
       <nav class="Navbar">
+        <div class="toggleBtn">
+
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
         <div class="nav">
-          <a href="#" active>Booking</a>
-          <a href="hotelListPage.html">Facilities</a>
-          <a href="#">About Us</a>
-          <a href="#">Location</a>
-          <a href="#">Contact</a>
+          <a href="#" active class="nav-links">Booking</a>
+          <a href="hotelListPage.html"class="nav-links" >Facilities</a>
+          <a href="#" class="nav-links">About Us</a>
+          <a href="#" class="nav-links">Location</a>
+          <a href="#" class="nav-links">Contact</a>
         </div>
         <div class="loginbtn">
           <!-- <button class="login">Login</button> -->
           <a href="./login.html" class="login">Log In</a>
         </div>
+
       </nav>
       <!-- nav ended  -->
       <!-- main header started -->
@@ -53,57 +62,62 @@
         <div class="main-img">
           <img src="./images/header-bg.jpeg" alt="Main-header-image" />
         </div>
+
+
+        <!-- search button section  -->
+
+        <div class="searchBtn">
+          <div class="location">
+            <h4>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              Location
+            </h4>
+  
+            <p>United State</p>
+          </div>
+          |
+          <div class="checkIn">
+            <h4>
+              <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+  
+              Check In
+            </h4>
+  
+            <p>15th March,2024</p>
+          </div>
+          |
+          <div class="checkOut">
+            <h4>
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+  
+              Check Out
+            </h4>
+  
+            <p>17th April,2024</p>
+          </div>
+          |
+          <div class="roomFor">
+            <h4>
+              <i class="fa fa-user" aria-hidden="true"></i>
+  
+              Room For
+            </h4>
+  
+            <p>1 Room | 2 Guest</p>
+          </div>
+          <div>
+            <button class="search">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              Search
+            </button>
+          </div>
+          <!-- <button class="search">Search</button> -->
+        </div>
+
       </div>
       <!-- main header ended  -->
-      <div class="searchBtn">
-        <div class="location">
-          <h4>
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            Location
-          </h4>
 
-          <p>United State</p>
-        </div>
-        |
-        <div class="checkIn">
-          <h4>
-            <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
-
-            Check In
-          </h4>
-
-          <p>15th March,2024</p>
-        </div>
-        |
-        <div class="checkOut">
-          <h4>
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-
-            Check Out
-          </h4>
-
-          <p>17th April,2024</p>
-        </div>
-        |
-        <div class="roomFor">
-          <h4>
-            <i class="fa fa-user" aria-hidden="true"></i>
-
-            Room For
-          </h4>
-
-          <p>1 Room | 2 Guest</p>
-        </div>
-        <div>
-          <button class="search">
-            <i class="fa fa-search" aria-hidden="true"></i>
-            Search
-          </button>
-        </div>
-        <!-- <button class="search">Search</button> -->
-      </div>
-
-      <!-- main-section ended  -->
+      <!-- Hotel section Start  -->
 
       <div class="hotel-section">
         <div>
@@ -441,5 +455,7 @@
 
 
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
