@@ -602,7 +602,7 @@ i {
     width: 10%;
     cursor: pointer;
     filter: grayscale(1);
-    transition: 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
 
 }
@@ -817,10 +817,11 @@ i {
 /* Making it Responsive  */
 
 @media only screen and (max-width: 768px){
+    
+
+    /* navbar  */
     .nav-links{
         display: none;
-
-       
     }
 
     .toggleBtn i{
@@ -831,6 +832,107 @@ i {
     }
     .navbarToggleShow{ 
         display: flex;
+    
     }
+
+    /* main header  */
+    .main-header{
+        width: 100%;
+        left: 0;
+        margin: 0;
+        margin-bottom: 2rem;
+        
+    }
+    .main-heading{
+        width: 75%;
+    }
+    .searchBtn{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 4rem;
+    }
+
+    /* hotel section  */
+    .viewAll{
+        left: 40%;
+        
+    }
+
+    /* service section  */
+    .facilities-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .info-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    .contact-btn{
+       width: 100%;
+    
+    }
+    .facilities{
+        margin-bottom: 3rem;
+    }
+    /* about section */
+    .about-section{
+        width: 100%;
+        left: 0;
+        flex-direction: column;
+        margin: 0;
+        overflow: hidden;
+        
+    }
+    .img-section{
+        width: 100%;
+
+    }
+    .about-info{
+        width: 60%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    /* review-section  */
+    .review-section{
+        left: 4rem;
+        margin-top: 3rem;
+    }
+    /* news letter + map section started  */
+    .newLetter-section{
+        margin-bottom: 4rem;
+    }
+    .hotelLocation{
+        width: 100%;
+     
+       
+    }
+    .newLetter{
+       width: 70%;
+    }
+
+
+    /* footer section  */
+    .footer-section{
+        left: 0;
+        width: 100%;
+        
+    }
+    .ft-sec1{
+        
+        width: 40%;
+    }
+    
+
+
+
+
+
     
 }
