@@ -7,7 +7,7 @@ let toggleBtn=()=>{
     nav_items.forEach(nav => nav.classList.toggle('navbarToggleShow'));
     
     
-   
+   console.log('clicked');
 
 }
 document.querySelector('.toggleBtn i').addEventListener('click', toggleBtn);

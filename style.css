@@ -338,7 +338,9 @@ i {
 }
 
 .facility-card:hover {
-    box-shadow: 12px 12px 5px rgba(232, 232, 232, 1);
+    /* box-shadow: 12px 12px 5px rgba(232, 232, 232, 1); */
+    box-shadow: 5px 15px 10px rgba(8, 93, 2, 0.971);
+
 
 }
 
@@ -818,6 +820,12 @@ i {
 
 @media only screen and (max-width: 768px){
     
+    .Navbar{
+        flex-wrap: wrap;
+        height: 15%;
+        transition: all 1s ease-in-out;
+    }
+    
 
     /* navbar  */
     .nav-links{
@@ -946,6 +954,8 @@ i {
         .main-container{
             width: 100%;
         }
+
+
         .Navbar{
             flex-wrap: wrap;
             height: 15%;
@@ -968,6 +978,9 @@ i {
         }
         .watchBtn{
             font-size: 1rem;
+            margin: 0;
+            top: .6rem;
+           
     
         }
         .main-img{
@@ -1034,6 +1047,7 @@ i {
 }
 
 .SubscribeBtn , .subBtn{
+    overflow: hidden;
     width: 100%;
 }
 .footer-section{
